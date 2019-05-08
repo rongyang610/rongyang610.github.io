@@ -564,7 +564,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 						<div class="col-md-7 col-md-push-1">
 							<div class="row">
 								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form id="messageForm" method="POST" action="https://formspree.io/rongyang610@gmail.com" target="_blank">
+									<form id="messageForm" method="POST" action="https://formspree.io/rongyang610@gmail.com" target="_blank" onsubmit="this.submit(); this.reset(); return false;">
 										<div class="form-group">
 											<input type="text" name="Name" class="form-control" placeholder="* Name" required>
 										</div>
@@ -578,7 +578,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 											<textarea name="Message" id="message" cols="30" rows="7" class="form-control" placeholder="* Message" required></textarea>
 										</div>
 										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
+											<input id="submitForm" type="submit" class="btn btn-primary btn-send-message" value="Send Message">
 										</div>
 									</form>
 								</div>
@@ -619,8 +619,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	<!-- Clearing Form-->
-	<script src="js/clearForm.js"></script>
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
