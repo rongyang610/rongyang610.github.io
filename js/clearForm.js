@@ -1,3 +1,3 @@
 document.getElementById('messageForm').addEventListener('submit', function(e){
-  document.getElementById("messageForm").reset();
+  setTimeout(document.getElementById("messageForm").reset(), 1000);
 });
