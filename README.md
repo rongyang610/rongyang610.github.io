@@ -1,4 +1,4 @@
-# Greenhood
+# Personal Site
 
 [Live Site](https://www.jjyang.me)
 
